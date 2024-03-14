@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="index.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim Character Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titleStuff">Skyrim Character Generator</h1>
+            <p class="titleStuff">Generate your Skyrim character</p>
+        </header>
+        <main>
+            <div id="buttonHolder">
+                <button id="generateButton">Generate Character</button>
+            </div>
+            <div>
+                <div id="loader" class="hidden"></div>
+            </div>
+
+            <div id="characterInfo" class="hidden">
+                <p>
+                    <strong>Name:</strong> <span id="name"></span>
+                </p>
+                <p>
+                    <strong>Sex:</strong> <span id="sex"></span>
+                </p>
+                <p>
+                    <strong>Race:</strong> <span id="race"></span> <i class="info-icon" id="raceInfo">&#9432;</i>
+                </p>
+                <p>
+                    <strong>Class:</strong> <span id="class"></span>
+                </p>
+                <p>
+                    <strong>Status:</strong> <span id="status"></span>
+                </p>
+                <p>
+                    <strong>Skills:</strong> <span id="skills"></span>
+                </p>
+                <p>
+                    <strong>Primary Standing Stone:</strong> <span id="primaryStandingStone"></span> <i
+                        class="info-icon" id="primaryStoneInfo">&#9432;</i>
+                </p>
+                <p>
+                    <strong>Secondary Standing Stone:</strong> <span id="secondaryStandingStone"></span> <i
+                        class="info-icon" id="secondaryStoneInfo">&#9432;</i>
+                </p>
+                <p>
+                    <strong>Alignment:</strong> <span id="alignment"></span> <i class="info-icon"
+                        id="alignmentInfo">&#9432;</i>
+                </p>
+            </div>
+            <div id="backstory" class="hidden">
+                <h2>Backstory</h2>
+                <p id="backstoryText"></p>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

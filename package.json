@@ -1,0 +1,22 @@
+{
+  "name": "tesv-character-generator",
+  "version": "1.0.0",
+  "description": "Single Page app that generates you a completely randomized TESV:Skyrim character including backstory for roleplay purposes",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Virgilio",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
