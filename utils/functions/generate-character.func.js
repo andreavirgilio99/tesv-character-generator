@@ -40,15 +40,15 @@ async function generateCharacter() {
 
     const prompt = getBackstoryPrompt(character);
     //only in production
-    /* character.backstory = await generateBackstory(prompt) */
+    character.backstory = await generateBackstory(prompt)
 
     //in dev
-    await new Promise((resolve) => {
+    /* await new Promise((resolve) => {
         setTimeout(() => {
             character.backstory = mockBackstory
             resolve()
         }, 4000);
-    })
+    }) */
 
     return character;
 }
