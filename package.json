@@ -2,7 +2,7 @@
   "name": "tesv-character-generator",
   "version": "1.0.0",
   "description": "Single Page app that generates you a completely randomized TESV:Skyrim character including backstory for roleplay purposes",
-  "main": "main.js",
+  "main": "./main.js",
   "engines": {
     "node": "18.x"
   },
