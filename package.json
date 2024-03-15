@@ -4,7 +4,7 @@
   "description": "Single Page app that generates you a completely randomized TESV:Skyrim character including backstory for roleplay purposes",
   "main": "main.js",
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node main.js",
