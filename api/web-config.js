@@ -19,11 +19,11 @@ function webConfig() {
 
                 break;
 
-            case "/index.js":
-                fs.readFile(path.join(__dirname, 'page', 'index.js'), (err, data) => {
+            case "/index_.js":
+                fs.readFile(path.join(__dirname, 'page', 'index_.js'), (err, data) => {
                     if (err) {
                         res.writeHead(500);
-                        res.end('Errore nel caricare l\'index.js');
+                        res.end('Errore nel caricare l\'index_.js');
                     }
 
                     res.writeHead(200, { 'Content-Type': 'text/javascript' });
