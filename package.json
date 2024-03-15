@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Single Page app that generates you a completely randomized TESV:Skyrim character including backstory for roleplay purposes",
   "main": "./api/main.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "node api/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
