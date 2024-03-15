@@ -7,9 +7,10 @@
         }
     ],
     "routes" : [
+        "{\"src\" : \"/(.*)\",\"dest\" : \"/\"}",
         {
-            "src" : "/(.*)",
-            "dest" : "/"
+            "src": "/",
+            "dest": "/page/index.html"
         }
     ]
 }
